@@ -8,58 +8,89 @@
         <title>Chocoronado</title>
     </head>
     <body>
-        <header> 
 
-            <li class="whatsapp"><a href="http://wa.me/5491152296985"> <img src="../imagen/icons8-whatsapp-64.png" alt=""></a></li>
-            <img class="logo" src="../imagen/Chocoronado.png"  alt="Logo">
-            <br>
-            <img class="redes_sociales" src="../imagen/facebook-logo-2019.png" alt="Logo Facebook">
-            <img class="redes_sociales" src="../imagen/insta.png" width = "50" height = "50" alt="Logo Instagram">
-            <img class="redes_sociales" src="../imagen/twit.png" width = "50" height = "50" alt="Logo Twitter">
+
+            <header> 
+
+                <li class="whatsapp"><a href="http://wa.me/5491152296985"> <img src="/imagen/icons8-whatsapp-64.png" alt=""></a></li>
+                </a>
+                </a></li><img class="logo" src="../imagen/Chocoronado.png" alt="">
                 
-            <ul class="nav_links"> 
-                <li><a href="../index.html" title="Pagina Principal">Pagina Principal</a></li>
-                <li><a href="Productos.html" title="Productos" >Productos</a></li>
-                <li><a href="Preguntas frecuentes.html" title="Preguntas frecuentes" >Preguntas Frecuentes</a></li>
-                <li><a href="Arma tu pedido.html" title="Arma Tu pedido">Arma tu pedido</a></li>
-                <li><a href="Contactanos.html" title="Contactarnos">Contactanos</a></li>
-            </ul>
+            </a>
+    
+                                <ul class="nav_links"> 
+    
+                                    <li><a href="../index.html" title="Pagina Principal">Principal</a></li>
+                                    <li><a href="../Pages/Productos.html" title="Productos">Productos</a></li>
+                                     <li><a href="../Pages/Preguntas frecuentes.html" title="Preguntas Frecuentes">Preguntas</a></li>
+                                    <li><a href="../Pages/Arma tu pedido.html" title="Arma tu pedido">Pedidos</a></li>
+                                    <li><a href="../Pages/Contactanos.html" title="Contactarnos">Contacto</a></li>
             
-        </header>
-            <div class="start">     
-                <div>
+                                 </ul>
+
+                                 <div class="burger">
+                                    <div id="hamburger-menu">
+                                        <nav id="sidebar-menu">
+                                          <h3></h3>
+                                            <ul>
+                                               <li><a href="../index.html">Home</a></li>
+                                                <li><a href="../Pages/Arma tu pedido.html">Pedidos</a></li>
+                                                <li><a href="../Pages/Contactanos.html">Contacto</a></li>
+                                                <li><a href="../Pages/Preguntas frecuentes.html">Preguntas</a></li>
+                                                <li><a href="../Pages/Productos.html">Productos</a></li>
+                                             </ul>
+                                        </nav>
+                                              </label>
+                                              
+                                              <div class="overlay"></div>
+                                        </nav>
+                                    </div>
+                                </div>
+    
+            </header>
+
+
 
                 <h1>Contactarnos</h1>
                 <h2>Ante cualquier consulta con nuestros productos, una pregunta o una inquietud, por favor dejar el mensaje abajo y nos comunicaremos con el metodo que seleccionaste abajo</h2>
 
-                </div>
+                    <div class="formulario">
+                      <form action="">
+                        <p>Nombre</p>
+                        <input type="text" class="field" name="casilla1" required placeholder="Nombre y apellido"><br>
+                        <p>Telefono</p>
+                        <input type="text" required placeholder="Escribe tu telefono" class="field" name="casilla2"><br>
+                        <p>Edad</p>
+                        <input type="number" class="field" name="casilla3" required placeholder="(1-99)"><br>
+                        <p>Fecha de nacimiento</p>
+                        <input type="date" class="field" name="casilla4"><br>
+                        <p>Sexo</p>
+                        <select name="sex" class="field">
+                          <option value="1">Prefiero no especificar</option>
+                          <option value="2">Mujer</option>
+                          <option value="3">Hombre</option>
+                        </select><br>
+                        <p>Correo electronico</p>
+                        <input type="email" class="field" name="casilla5" required placeholder="email@tuemail.com"><br>
+                        <label>
+                          <span>¿Desea recibir newsletter?</span>
+                          <input type="checkbox">
+                        </label><br>
+                        <textarea name="areadetexto" class="field" cols="80" rows="15"
+                          placeholder="¿Algo que quieras agregar?"></textarea><br>
+                        <p class="center-content">
+                          <input type="submit" class="btn btn-yellow" value="Enviar">
+                          <input type="reset" class="btn btn-red" value="Borrar">
+                        </p>
+                      </form>
+                    </div>
 
-                <div class="forms"> 
-                    <form action='#' > 
-                    <label class="forms__nombreyapellido">Nombre y Apellido</label>
-                    <input type="text" id="Name" Name= "Nombre y Apellido" placeholder="Nombre Completo">
-                    <br>
-                    <label class="email">Email</label>
-                    <input type="email" id="email" Name= "Correo electronico" placeholder="xxxxx@gmail.com">
-                    <br>
-                    <label class="forms__comentarios">Comentarios</label>
-                    <textarea id="comentarios" Name= "Comentarios" placeholder="Comentarios y Sugerencias"></textarea>
-                    <br>
-                    <label class="forms__telefono">Telefono</label>
-                    <input type="number" name="numero" id="telefono" placeholder="+54(911)12345678"> 
-                    <br>
-                    <P class="forms__pregunta">Como nos comunicamos con usted?</P>
-                    <input type="checkbox" id="telefono" name="telefono" value="numero">
-                    <label for="telefono"> Telefono</label><br>
-                    <input type="checkbox" id="email" name="email" value="correo">
-                    <label for="email"> E-Mail</label>
-                    <br>
-                    <button>Enviar</button>
-                    </form>
-                </div>   
-            </div>
-            <footer>    
-
+            <footer> 
+            
+                <img class="redes_sociales" src="../imagen/facebook-logo-2019.png" alt="">
+                <img class="redes_sociales" src="../imagen/insta.png" alt="">
+                <img class="redes_sociales" src="../imagen/twit.png" alt="">
+    
                 <div class="copyright">
                     <h6>Copyright 2022 by Joaquin Pires Diz. All Rights Reserved.</h6>
                 </div>

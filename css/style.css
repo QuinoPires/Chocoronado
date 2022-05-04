@@ -7,10 +7,32 @@ margin: 0%;
 
 }
 
+.fotoshuevos {
+    
+    width: 500px;
+    height: 500px;
+    border-radius: 40%;
+    padding: 50px;
+
+}
+
+.huevosfila {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.huevoscolumna{
+
+    flex: 33.33%;
+    padding: 5px;
+
+}
 
 .logo {
 
-    height: 150px;
+    height: 130px;
     border-radius: 90%;
     object-fit: contain;
     margin-bottom: 0px;
@@ -28,18 +50,17 @@ margin: 0%;
 
 footer {
     
-    bottom: 0px;
+    bottom: px;
     border-top: 3px solid salmon;
-    padding: 1rem;
+    padding: 10px 10px 0px 10px;
     background-image: url(../imagen/Background.jpg  );
     align-items: bottom;
     width: 100%;
-    position: relative;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    position: fixed;
+    bottom: 0px;
     padding: 1rem;
     text-align: center;
+
 
 }
 
@@ -49,15 +70,16 @@ header  {
     position: sticky;
     box-sizing: content-box;
     width: 100%;
-    height: 200px;
+    height: 100%;
     border: 10px;
     background-image: url(../imagen/Backgrtound\ 2.jpg);
     padding: 0px;
     background-size: auto; 
     border-bottom: 3px solid black;
     text-decoration: none;
-    
-}
+   
+        
+    }
 
 
 .productos {
@@ -79,18 +101,22 @@ header  {
 .nav_links {
 
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
     float: right;
     color: black;
-    text-align: end;
-    padding: 0px;
-    font-size: 20px;
+    text-align: center;
+    padding: 0x;
+    font-size: 14.5px;
+    margin-top: 30px;
 }
 
 .nav_links li a {
 
     text-decoration: none;
     font-family: "wonderbar";
+    padding: 1rem;
+    display: block;
 
 }
 
@@ -118,6 +144,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    line-height: 1;
 }
 
 .forms {
@@ -140,13 +167,28 @@ body {
 .whatsapp {
 
     position: fixed;
-    bottom: 3rem;
+    bottom: 6rem;
     right: 2rem;
 }
 
 .copyright {
 
 color: red;
+
+}
+
+.formulario {
+
+    font: "wonderbar";
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    margin: 60px auto 60px auto;
+    width: 700px;
+    padding: 100px;
+    font-size: 16px;
+    border: 2px solid pink;
+    border-radius: 10px;
 
 }
 
@@ -182,25 +224,275 @@ color: red;
 }
 
 
-.fotoshuevos {
-    
-    width: 500px;
-    height: 500px;
-    border-radius: 40%;
-    padding: 50px;
 
-}
 
-.huevosfila {
+.toggle-button {
 
-    display: flex;
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
     justify-content: space-between;
+    width: 50px;
+    height: 40px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    background-color: black;
+    border-radius: 10px
+}
+
+
+.nav_links li {
+
+    padding: .5rem; 
+}
+
+.nav_links.active {
+    display: flex
+}
+
+.productos2 {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    align-items: start;
+    justify-items: center;
+    
+}
+
+.productos2 img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+}
+
+
+.huevosfotos1 {
+
+    width: 300px;
+    height: 300px;
 
 }
 
-.huevoscolumna{
+.huevosfotos2 {
 
-    flex: 33.33%;
-    padding: 5px;
+    width: 300px;
+    height: 300px;
 
+}
+.huevosfotos3 {
+
+    width: 300px;
+    height: 300px;
+
+}
+
+.huevosfotos4 {
+
+    width: 300px;
+    height: 300px;
+}
+
+.huevosfotos5 {
+
+    width: 300px;
+    height: 300px;
+}
+
+.huevosfotos6 {
+
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (Max-width: 800px) 
+{
+
+    .body {
+
+        background-color: papayawhip;
+        opacity: 100%;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .huevosfila {
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    
+    }
+    
+    .huevoscolumna{
+    
+        flex: 10%;
+        padding: 0px;
+    
+    }
+
+    .fotoshuevos {
+
+        width: 300px;
+        height: 300px;
+        border-radius: 40%;
+        padding: 10px;
+        align-items: center;
+
+    }
+    .whatsapp {
+
+        display: none;
+        position: fixed;
+        bottom: 2.5rem;
+        right: 1rem;
+    }
+
+    
+}
+    
+    .burger {
+        display: none; 
+    }
+
+    .burger li a {
+        text-decoration: none;
+    }
+
+    @media screen and (Max-width: 800px) {
+        
+        .nav_links {
+            display: none;
+        }
+
+        .burger {
+
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            float: right;
+            color: black;
+            text-align: center;
+            padding: 0x;
+            font-size: 15px;
+            margin-top: 3%;
+            margin-right: 36%;
+            text-decoration: none;
+        }
+        
+        .burger li {
+
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            font-size: smaller;
+        }
+
+        .burger li a {
+
+            text-decoration: none;
+            font-family: "wonderbar";
+            padding: 0%;
+            display: flex;
+
+        }
+
+        .burger li a:visited {
+
+            color: black;
+        }
+        
+        .burger li a:hover{
+        
+            color: red;
+            text-decoration: none;
+            font-family: "wonderbar";
+    }
+
+    @media screen and (Max-width: 800px) 
+
+    {
+        .productos2 {
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1px;
+            align-items: start;
+            justify-items: center;
+            
+        }
+        
+        .productos2 img {
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+            max-width: 100%;
+        }
+        
+        
+        .huevosfotos1 {
+        
+            width: 200px;
+            height: 200px;
+        
+        }
+        
+        .huevosfotos2 {
+        
+            width: 200px;
+            height: 200px;
+        
+        }
+        .huevosfotos3 {
+        
+            width: 200px;
+            height: 200px;
+        
+        }
+        
+        .huevosfotos4 {
+        
+            width: 200px;
+            height: 200px;
+        }
+        
+        .huevosfotos5 {
+        
+            width: 200px;
+            height: 200px;
+        }
+        
+        .huevosfotos6 {
+        
+            width: 200px;
+            height: 200px;
+
+        }
+    }
+
+    @media screen and (Max-width: 800px) 
+    {
+    
+        .formulario {
+
+            display: flex;
+            justify-content: center;
+            text-align:left;
+            margin: 30px auto 30px auto;
+            width: 20px;
+            padding: 300px;
+            font-size: 12px;
+            border: 0px solid #999;
+            border-radius: 5px;
+        
+        }
+    
+        
+    }
 }
