@@ -177,16 +177,21 @@ color: red;
 
 .formulario {
 
-    font: "wonderbar";
     display: flex;
     justify-content: center;
     text-align:left;
     margin: 60px auto 60px auto;
-    width: 700px;
+    width: 600px;
     padding: 100px;
     font-size: 16px;
     border: 2px solid pink;
     border-radius: 10px;
+
+}
+
+.formulario p {
+
+    font-family: "wonderbar";
 
 }
 
