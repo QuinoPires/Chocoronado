@@ -50,13 +50,11 @@ margin: 0%;
 
 footer {
     
-    bottom: px;
     border-top: 3px solid salmon;
-    padding: 10px 10px 0px 10px;
     background-image: url(../imagen/Background.jpg  );
     align-items: bottom;
     width: 100%;
-    position: fixed;
+    position: sticky;
     bottom: 0px;
     padding: 1rem;
     text-align: center;
@@ -273,40 +271,42 @@ color: red;
 
 .huevosfotos1 {
 
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
 
 }
 
 .huevosfotos2 {
 
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
 
 }
 .huevosfotos3 {
 
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
 
 }
 
 .huevosfotos4 {
 
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
 }
 
 .huevosfotos5 {
 
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+
 }
 
 .huevosfotos6 {
 
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+
 }
 
 @media screen and (Max-width: 800px) 
