@@ -501,3 +501,29 @@ color: red;
         
     }
 }
+
+.carousel-item,
+  .carousel-inner,
+  .carousel-inner img {
+    height: 360px;
+    width: 580px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  @media screen and (Max-width: 800px) 
+  {
+  
+    .carousel-item,
+  .carousel-inner,
+  .carousel-inner img {
+    height: 180px;
+    width: 320px;
+    margin: 0 auto;
+
+
+
+      }
+  
+      
+ 
