@@ -411,7 +411,7 @@ color: red;
 
         .burger li a:visited {
 
-            color: black;
+            color: red  ;
         }
         
         .burger li a:hover{
