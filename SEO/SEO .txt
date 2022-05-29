@@ -1,0 +1,4 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: Agregad :        <meta property="og:description" content="Chocoronado es  una pagina para todas tus necesidades de chocolate!">" Es una descripcion basica de la pagina que se trata solamente del mundo del chocolate
+Palabras clave:         <meta name="keywords" content="Chocolate, chocoronado, semiamargo, blanco, huevos, pascua, bombones"> Todo los keywords se basan en chocolate y cosas que se pueden encontrar en la pagina
+Encabezado: Encabezado en cada pagina, describiendo que es cada pagina
