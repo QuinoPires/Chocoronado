@@ -161,6 +161,8 @@ color: red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 2%;
+    line-height: 26px;
 
 }
 
@@ -184,6 +186,8 @@ color: red;
     display: flex;
     justify-content: center;
     padding: 2%;
+    line-height: 24px;
+    
 }
 
 .preguntas {
@@ -302,59 +306,9 @@ color: red;
         text-decoration: none;
     }
 
-    @media screen and (Max-width: 800px) {
-        
-        .nav_links {
-            display: none;
-        }
-
-        .burger {
-
-            display: flex;
-            justify-content: space-evenly;
-            flex-direction: column;
-            float: right;
-            color: black;
-            text-align: center;
-            padding: 0x;
-            font-size: 15px;
-            margin-top: 3%;
-            margin-right: 36%;
-            text-decoration: none;
-        }
-        
-        .burger li {
-
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            font-size: smaller;
-        }
-
-        .burger li a {
-
-            text-decoration: none;
-            font-family: "wonderbar";
-            padding: 0%;
-            display: flex;
-
-        }
-
-        .burger li a:visited {
-
-            color: red  ;
-        }
-        
-        .burger li a:hover{
-        
-            color: red;
-            text-decoration: none;
-            font-family: "wonderbar";
-    }
 
     @media screen and (Max-width: 700px) 
-
-    {
+{
         .productos2 {
 
             display: flex;
@@ -408,7 +362,7 @@ color: red;
             height: 200px;
 
         }
-    }
+    
 
     @media screen and (Max-width: 800px) 
     {
@@ -563,5 +517,61 @@ color: red;
 .sabores {
 
 line-height: 36px;
+font-size: 20px;
 
+}
+
+.texto {
+
+    line-height: 36px;
+    margin-left: 2%;
+    margin-top: 0.5%;
+}
+
+.check {
+
+    line-height: 20px;
+    padding-bottom: 20px;
+
+}.check2 {
+
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.check3 {
+
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (Max-width: 800px) {
+        
+    .nav_links {
+
+        display: block;
+        float: right;
+        font-size: 15px;
+        padding: 0%;
+        letter-spacing: -1px;
+        line-height: 10px;
+    }
+
+}
+
+
+
+.sabor4 {
+
+    text-align: center;
+    text-decoration:solid;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.sabor5 {
+
+    margin: 3%;
 }
