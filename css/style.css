@@ -149,9 +149,10 @@ body {
 
 }
 
-.formulario p {
+.formulario label {
 
-    font-family: "wonderbar";
+    margin: 10%;
+    line-height: 2;
 
 }
 
@@ -516,8 +517,9 @@ body {
 
 .sabores {
 
-    line-height: 36px;
+    line-height: 1.6;
     font-size: 20px;
+    white-space: pre;
 
 }
 
