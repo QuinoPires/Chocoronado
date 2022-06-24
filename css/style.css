@@ -1,15 +1,15 @@
-*{
+* {
 
-box-sizing: border-box;
-padding: 0%;
-margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
 
 
 }
 
 
 footer {
-    
+
     border-top: 3px solid salmon;
     background-image: url(../imagen/Background.jpg  );
     align-items: bottom;
@@ -23,7 +23,7 @@ footer {
 }
 
 
-header  {
+header {
 
     position: sticky;
     box-sizing: content-box;
@@ -32,12 +32,12 @@ header  {
     border: 10px;
     background-image: url(../imagen/Backgrtound\ 2.jpg);
     padding: 0px;
-    background-size: auto; 
+    background-size: auto;
     border-bottom: 3px solid black;
     text-decoration: none;
-   
-        
-    }
+
+
+}
 
 
 .productos {
@@ -46,7 +46,7 @@ header  {
     height: 250px;
     transform: transform 2s;
     overflow: hidden;
-    
+
 }
 
 .nav_links li {
@@ -83,7 +83,7 @@ header  {
     color: black;
 }
 
-.nav_links li a:hover{
+.nav_links li a:hover {
 
     color: red;
     text-decoration: none;
@@ -116,7 +116,7 @@ body {
 
 }
 
-.forms__nombreyapellido{
+.forms__nombreyapellido {
 
     font-size: larger;
 
@@ -131,7 +131,7 @@ body {
 
 .copyright {
 
-color: red;
+    color: red;
 
 }
 
@@ -139,7 +139,7 @@ color: red;
 
     display: flex;
     justify-content: center;
-    text-align:left;
+    text-align: left;
     margin: 60px auto 60px auto;
     width: 800px;
     padding: 100px;
@@ -166,7 +166,7 @@ color: red;
 
 }
 
-.start__sobrenosotros{
+.start__sobrenosotros {
 
     display: flex;
     justify-content: center;
@@ -187,7 +187,7 @@ color: red;
     justify-content: center;
     padding: 2%;
     line-height: 24px;
-    
+
 }
 
 .preguntas {
@@ -218,7 +218,7 @@ color: red;
 
 .nav_links li {
 
-    padding: .5rem; 
+    padding: .5rem;
 }
 
 .nav_links.active {
@@ -227,30 +227,29 @@ color: red;
 
 
 .carousel-item,
-  .carousel-inner,
-  .carousel-inner img {
+.carousel-inner,
+.carousel-inner img {
     height: 360px;
     width: 580px;
     margin: 0 auto;
     padding: 5px;
-  }
+}
 
-  @media screen and (Max-width: 800px)  {
-  
+@media screen and (Max-width: 800px) {
+
     .carousel-item,
-  .carousel-inner,
-  .carousel-inner img {
-    height: 180px;
-    width: 320px;
-    margin: 0 auto;
+    .carousel-inner,
+    .carousel-inner img {
+        height: 180px;
+        width: 320px;
+        margin: 0 auto;
 
 
 
-      }
     }
+}
 
-    @media screen and (Max-width: 800px) 
-{
+@media screen and (Max-width: 800px) {
 
     .body {
 
@@ -263,19 +262,20 @@ color: red;
         flex-direction: column;
 
     }
+
     .huevosfila {
 
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-    
+
     }
-    
-    .huevoscolumna{
-    
+
+    .huevoscolumna {
+
         flex: 10%;
         padding: 0px;
-    
+
     }
 
     .fotoshuevos {
@@ -287,6 +287,7 @@ color: red;
         align-items: center;
 
     }
+
     .whatsapp {
 
         display: none;
@@ -295,98 +296,95 @@ color: red;
         right: 1rem;
     }
 
-    
+
 }
-    
-    .burger {
-        display: none; 
+
+.burger {
+    display: none;
+}
+
+.burger li a {
+    text-decoration: none;
+}
+
+
+@media screen and (Max-width: 700px) {
+    .productos3 {
+
+        display: flex;
+        align-items: start;
+        justify-items: center;
     }
 
-    .burger li a {
-        text-decoration: none;
+    .productos3 img {
+
+        max-width: 40%;
+        max-height: 40%;
+
     }
 
 
-    @media screen and (Max-width: 700px) 
-{
-        .productos2 {
+    .huevosfotos1 {
 
-            display: flex;
-            align-items: start;
-            justify-items: center;
-            
-        }
-        
-        .productos2 img {
+        width: 200px;
+        height: 200px;
 
-            max-width: 40%;
-            max-height: 40%;
-        }
-        
-        
-        .huevosfotos1 {
-        
-            width: 200px;
-            height: 200px;
-        
-        }
-        
-        .huevosfotos2 {
-        
-            width: 200px;
-            height: 200px;
-        
-        }
-        .huevosfotos3 {
-        
-            width: 200px;
-            height: 200px;
-        
-        }
-        
-        .huevosfotos4 {
-        
-            width: 200px;
-            height: 200px;
-        }
-        
-        .huevosfotos5 {
-        
-            width: 200px;
-            height: 200px;
-        }
-        
-        .huevosfotos6 {
-        
-            width: 200px;
-            height: 200px;
+    }
 
-        }
-    
+    .huevosfotos2 {
 
-    @media screen and (Max-width: 800px) 
-    {
-    
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .huevosfotos3 {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .huevosfotos4 {
+
+        width: 200px;
+        height: 200px;
+    }
+
+    .huevosfotos5 {
+
+        width: 200px;
+        height: 200px;
+    }
+
+    .huevosfotos6 {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+
+    @media screen and (Max-width: 800px) {
+
         .formulario {
 
             display: flex;
             justify-content: center;
-            text-align:left;
+            text-align: left;
             margin: 30px auto 30px auto;
             width: 20px;
-            padding: 300px;
             font-size: 12px;
             border: 0px solid #999;
             border-radius: 5px;
-        
+
         }
-    
-        
+
+
     }
 }
-
 .fotoshuevos {
-    
+
     width: 400px;
     height: 400px;
     border-radius: 40%;
@@ -401,7 +399,7 @@ color: red;
 
 }
 
-.huevoscolumna{
+.huevoscolumna {
 
     flex: 33.33%;
     padding: 5px;
@@ -415,6 +413,7 @@ color: red;
     object-fit: contain;
     margin-bottom: 0px;
 }
+
 .redes_sociales {
 
     border-radius: 90%;
@@ -433,7 +432,7 @@ color: red;
     grid-gap: 1px;
     align-items: start;
     justify-items: center;
-    
+
 }
 
 .productos2 img {
@@ -450,7 +449,7 @@ color: red;
 
     transition: 0.5s;
     transform: scale(1.3);
-        
+
 }
 
 .huevosfotos1 {
@@ -466,6 +465,7 @@ color: red;
     height: 500px;
 
 }
+
 .huevosfotos3 {
 
     width: 500px;
@@ -508,7 +508,7 @@ color: red;
 
 }
 
-.preguntas h3{
+.preguntas h3 {
 
     font-size: 50px;
 
@@ -516,8 +516,8 @@ color: red;
 
 .sabores {
 
-line-height: 36px;
-font-size: 20px;
+    line-height: 36px;
+    font-size: 20px;
 
 }
 
@@ -533,7 +533,9 @@ font-size: 20px;
     line-height: 20px;
     padding-bottom: 20px;
 
-}.check2 {
+}
+
+.check2 {
 
     line-height: 20px;
     padding-bottom: 20px;
@@ -548,7 +550,7 @@ font-size: 20px;
 }
 
 @media screen and (Max-width: 800px) {
-        
+
     .nav_links {
 
         display: block;
@@ -566,7 +568,7 @@ font-size: 20px;
 .sabor4 {
 
     text-align: center;
-    text-decoration:solid;
+    text-decoration: solid;
     font-weight: bold;
     line-height: 2;
 }
