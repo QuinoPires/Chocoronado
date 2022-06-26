@@ -54,6 +54,7 @@ header {
     text-decoration: none;
     display: inline-block;
     padding: 0px 40px;
+    color: black;
 }
 
 .nav_links {
@@ -75,6 +76,7 @@ header {
     font-family: "wonderbar";
     padding: 1rem;
     display: block;
+    color: black;
 
 }
 
@@ -142,17 +144,18 @@ body {
     text-align: left;
     margin: 60px auto 60px auto;
     width: 800px;
-    padding: 100px;
     font-size: 16px;
     border: 2px solid pink;
     border-radius: 20px;
+    line-height: 1.6;
 
 }
 
 .formulario label {
 
-    margin: 10%;
-    line-height: 2;
+    line-height: 1.6;
+    margin: 20px;
+    padding-top: 3%;
 
 }
 
@@ -196,6 +199,12 @@ body {
     padding: 4%;
 }
 
+.preguntas h6 {
+
+    color: brown;
+    font-size: xx-large;
+    text-decoration: bold;
+}
 
 
 .toggle-button {
@@ -312,59 +321,20 @@ body {
 @media screen and (Max-width: 700px) {
     .productos3 {
 
-        display: flex;
-        align-items: start;
+        display: grid;
+        align-items: center;
         justify-items: center;
+        grid-column: 10 / span 2;
+
+
     }
 
     .productos3 img {
 
-        max-width: 40%;
-        max-height: 40%;
+        max-width: 100%;
+        max-height: 100%;
 
     }
-
-
-    .huevosfotos1 {
-
-        width: 200px;
-        height: 200px;
-
-    }
-
-    .huevosfotos2 {
-
-        width: 200px;
-        height: 200px;
-
-    }
-
-    .huevosfotos3 {
-
-        width: 200px;
-        height: 200px;
-
-    }
-
-    .huevosfotos4 {
-
-        width: 200px;
-        height: 200px;
-    }
-
-    .huevosfotos5 {
-
-        width: 200px;
-        height: 200px;
-    }
-
-    .huevosfotos6 {
-
-        width: 200px;
-        height: 200px;
-
-    }
-
 
     @media screen and (Max-width: 800px) {
 
@@ -384,6 +354,7 @@ body {
 
     }
 }
+
 .fotoshuevos {
 
     width: 400px;
@@ -429,29 +400,18 @@ body {
 .productos2 {
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1px;
-    align-items: start;
-    justify-items: center;
-
+    grid-template-columns: repeat(3, 1fr)
 }
 
 .productos2 img {
 
-    max-width: 100%;
     border-radius: 30%;
-    padding: 10%;
+    padding: 5%;
     width: 100%;
-    transition: 0s all ease-in-out;
-
+    height: 100%;
 }
 
-.productos2 img:hover {
 
-    transition: 0.5s;
-    transform: scale(1.3);
-
-}
 
 .huevosfotos1 {
 
@@ -515,13 +475,7 @@ body {
 
 }
 
-.sabores {
 
-    line-height: 1.6;
-    font-size: 20px;
-    white-space: pre;
-
-}
 
 .texto {
 
@@ -530,26 +484,6 @@ body {
     margin-top: 0.5%;
 }
 
-.check {
-
-    line-height: 20px;
-    padding-bottom: 20px;
-
-}
-
-.check2 {
-
-    line-height: 20px;
-    padding-bottom: 20px;
-}
-
-.check3 {
-
-    padding-top: 2%;
-    padding-bottom: 1%;
-    font-weight: bold;
-    text-align: center;
-}
 
 @media screen and (Max-width: 800px) {
 
@@ -569,13 +503,21 @@ body {
 
 .sabor4 {
 
-    text-align: center;
     text-decoration: solid;
     font-weight: bold;
-    line-height: 2;
+    line-height: 3;
 }
 
 .sabor5 {
 
     margin: 3%;
+}
+
+.check3 {
+
+    text-align: center;
+    padding-bottom: 2%;
+    font-weight: bold;
+    text-decoration: underline;
+
 }

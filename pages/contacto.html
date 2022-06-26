@@ -15,7 +15,7 @@
 
 <body>
   <header>
-      <img class="logo" src="../imagen/Chocoronado.png" alt="Loco Chocoronado">
+    <img class="logo" src="../imagen/Chocoronado.png" alt="Loco Chocoronado">
     <div class="whatsapp">
       <a href="http://wa.me/5491152296985">
         <img src="../imagen/icons8-whatsapp-64.png" alt="whatsapp">
@@ -23,7 +23,7 @@
     </div>
     <ul class="nav_links">
       <li><a href="../index.html" title="Pagina Principal">Principal</a></li>
-      <li><a href="../pages/products.html" title="Productos">Productos</a></li>
+      <li><a href="../pages/productos.html" title="Productos">Productos</a></li>
       <li><a href="../pages/preguntas.html" title="Preguntas Frecuentes">Preguntas</a></li>
       <li><a href="../pages/pedido.html" title="Arma tu pedido">Pedidos</a></li>
       <li><a href="../pages/contacto.html" title="Contactarnos">Contacto</a></li>
@@ -50,32 +50,47 @@
     </div>
     <div class="formulario">
       <form action="">
-        <label>Nombre</label>
-        <input type="text" class="field" name="casilla1" required placeholder="Nombre y apellido">
-        <label>Telefono</label>
-        <input type="text" required placeholder="Escribe tu telefono" class="field" name="casilla2">
-        <label>Edad</label>
-        <input type="number" class="field" name="casilla3" required placeholder="(1-99)">
-        <label>Fecha de nacimiento</label>
-        <input type="date" class="field" name="casilla4">
-        <label>Sexo</label>
-        <select name="sex" class="field">
-          <option value="1">Prefiero no especificar</option>
-          <option value="2">Mujer</option>
-          <option value="3">Hombre</option>
-        </select>
-        <label>Correo electronico</label>
-        <input type="email" class="field" name="casilla5" required placeholder="email@tuemail.com">
         <div>
-          <span>¿Desea recibir newsletter?</span>
+          <label>Nombre</label>
+          <input type="text" class="field" name="casilla1" required placeholder="Nombre y apellido">
+        </div>
+        <div>
+          <label>Telefono</label>
+          <input type="text" required placeholder="Escribe tu telefono" class="field" name="casilla2">
+        </div>
+        <div>
+          <label>Edad</label>
+          <input type="number" class="field" name="casilla3" required placeholder="(1-99)">
+        </div>
+        <div>
+          <label>Fecha de nacimiento</label>
+          <input type="date" class="field" name="casilla4">
+        </div>
+        <div>
+          <label>Sexo</label>
+          <select name="sex" class="field">
+            <option value="1">Prefiero no especificar</option>
+            <option value="2">Mujer</option>
+            <option value="3">Hombre</option>
+          </select>
+        </div>
+        <div>
+          <label>Correo electronico</label>
+          <input type="email" class="field" name="casilla5" required placeholder="email@tuemail.com">
+        </div>
+        <div>
+          <label>¿Desea recibir newsletter?</label>
           <input type="checkbox">
         </div>
-        <textarea name="areadetexto" class="field" cols="50" rows="15"
-          placeholder="¿Algo que quieras agregar?"></textarea>
+        <div>
+          <label>¿Algo que quieras agregar?</label><textarea name="areadetexto" class="field" cols="50" rows="15"
+            placeholder="¿Algo que quieras agregar?"></textarea>
+        </div>
         <div class="center-content">
           <input type="submit" class="btn btn-yellow" value="Enviar">
           <input type="reset" class="btn btn-red" value="Borrar">
         </div>
+
       </form>
     </div>
   </main>
